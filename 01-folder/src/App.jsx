@@ -1,10 +1,13 @@
 import React from 'react'
+import Card from "./component/card"
+import Navbar from "./component/navbar"
 
 const App = () => {
   return (
     <div id="parent">
-      <h1>My name is Dhruv Sharma</h1>
-      <h6>Helo</h6>
+     <Card user="Dhruv Sharma" age={18}/>
+     <Card  user="Keshav Sharma" age={18}/>
+  
     </div>
   )
 }
