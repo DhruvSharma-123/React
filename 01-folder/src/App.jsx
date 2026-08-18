@@ -5,12 +5,16 @@ import spider from "./assets/spider.avif";
 import Ui from "./component/ui";
 
 const App = () => {
+  let arr=[10,20,30,40];
   return (
     <div id="parent">
      {/* <Card user="Dhruv Sharma" age={18} img={spider}/>
      <Card  user="Keshav Sharma" age={18} img="https://images.unsplash.com/photo-1642456074142-92f75cb84533?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
    */}
 <Ui/>
+{/* {arr.map(function(elem){
+  return elem;
+})} */}
     </div>
   )
 }

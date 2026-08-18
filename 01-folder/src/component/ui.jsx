@@ -18,10 +18,10 @@ return <div className="Uip">
    <div className="Senior">Senior Level</div>
 </div>  
 <br />
-<br />
 <hr />
 <span>
-<b>$120/hr</b> <button>Apply now</button>
+<b>$120/hr</b> <button id="btwo">Apply now</button>
+<p id="lp">Mumbai , India</p>
 </span>
 </div>
 }
