@@ -25,7 +25,11 @@ border-radius: 20%;
 body{
   background-color: rgb(202, 200, 200);
 }
-
+#parent{
+  display: flex;
+  gap:10px;
+  flex-wrap: wrap;
+}
   .Uip{
     height: 260px;
   width:210px;
