@@ -1,0 +1,7 @@
+.btn {
+    color: red !important;
+    background-color: white !important;
+    padding: 20px;
+    display: inline-block;
+    font-size: 30px;
+}
