@@ -1,11 +1,11 @@
 import React from "react";
-
+import { Save } from "lucide-react";
 
 function  Ui(props){
 return <div className="Uip">
 <div className="uione">
     <img  src={props.image}/>
-    <button id="bone">Save</button>
+    <button id="bone">Save  <Save size={20} />cla</button>
 </div>
 <div>
     <span><span className="b">{props.company}</span><small opicity={0.5} >  5 days ago</small></span>
