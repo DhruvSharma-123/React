@@ -89,8 +89,11 @@ const App = () => {
   return elem;
 })} */}
 
-{freelancers.map(function(elem){
-  return <Ui company={elem.company} role={elem.role} image={elem.image} price={elem.rate} loc={elem.location}  />;
+{freelancers.map(function(elem,idxx){
+    
+  return <div key={idxx}>
+    <Ui company={elem.company} role={elem.role} image={elem.image} price={elem.rate} loc={elem.location}  />
+  </div>
 })}
 
 

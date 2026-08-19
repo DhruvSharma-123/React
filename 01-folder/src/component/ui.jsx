@@ -5,7 +5,7 @@ function  Ui(props){
 return <div className="Uip">
 <div className="uione">
     <img  src={props.image}/>
-    <button id="bone">Save  <Save size={20} />cla</button>
+    <button id="bone">Save  <Save size={10} /></button>
 </div>
 <div>
     <span><span className="b">{props.company}</span><small opicity={0.5} >  5 days ago</small></span>
