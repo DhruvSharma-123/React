@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 const RightCard = (props) => {
   return (
-    <div className="h-full w-80  rounded-4xl overflow-x-hidden shrink-0">
+    <div className="h-full w-80  rounded-4xl overflow-x-hidden shrink-0 overflow-y-hidden">
        <div className="relative top-0 left-0 w-full h-full">
    <img src={props.image}  className="h-full w-full object-cover" />
 
