@@ -1,10 +1,22 @@
 import React from 'react'
 const Header = () => {
   return (
-    <div>
-      <h1>Hellow </h1>
+    <div className='flex justify-around h-20 pt-9 `bg-gradient-to-b` from-gray-100 to-white rounded-t-[30px] shadow-lg shadow-gray-300'>  
+    <div className='flex justify-around w-2xl'>
+<div><button className='bg-blue-900 rounded-full text-1xl font-semibold text-white w-12 h-12 -translate-y-2.5'>5U</button></div>
+<div><button className='font-semibold text-shadow-md hover:bg-gray-50 ease-linear duration-150 w-14'>About</button></div>
+<div><button className='font-semibold text-shadow-md hover:bg-gray-50 ease-linear duration-150'>PRODUCT</button></div>
+<div><button className='font-semibold text-shadow-md hover:bg-gray-50 ease-linear duration-150'>USE CASE</button></div>
+<div><button className='font-semibold text-shadow-md hover:bg-gray-50 ease-linear duration-150'>BLOG</button></div>
+</div>
+<div className='font-semibold text-shadow-md'>
+  5 AI Published &nbsp; ›
+</div>
+<div hover:bg-gray-50 ease-linear duration-150><button className='-translate-x-65 font-bold bg-gray-200 w-36 h-10 rounded-full -translate-y-1.5 text-sm '  >BOOK A DEMO</button></div>
+
+
     </div>
   )
 }
 
-export default Header;
+export default Header;  
