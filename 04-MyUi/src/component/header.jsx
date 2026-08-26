@@ -4,10 +4,10 @@ const Header = () => {
     <div className='flex justify-around h-20 pt-9 `bg-gradient-to-b` from-gray-100 to-white rounded-t-[30px] shadow-lg shadow-gray-300'>  
     <div className='flex justify-around w-2xl'>
 <div><button className='bg-blue-900 rounded-full text-1xl font-semibold text-white w-12 h-12 -translate-y-2.5'>5U</button></div>
-<div><button className='font-semibold text-shadow-md hover:bg-gray-50 ease-linear duration-150 w-14'>About</button></div>
-<div><button className='font-semibold text-shadow-md hover:bg-gray-50 ease-linear duration-150'>PRODUCT</button></div>
-<div><button className='font-semibold text-shadow-md hover:bg-gray-50 ease-linear duration-150'>USE CASE</button></div>
-<div><button className='font-semibold text-shadow-md hover:bg-gray-50 ease-linear duration-150'>BLOG</button></div>
+<div><button className='font-semibold text-shadow-md hover:bg-gray-50 ease-linear duration-150 w-24 rounded-full pb-1 text-2xl'>About</button></div>
+<div><button className='font-semibold text-shadow-md hover:bg-gray-50 ease-linear duration-150  w-30 rounded-full pb-1 text-2xl'>PRODUCT</button></div>
+<div><button className='font-semibold text-shadow-md hover:bg-gray-50 ease-linear duration-150 w-24 rounded-full pb-1 text-2xl'>USE</button></div>
+<div><button className='font-semibold text-shadow-md hover:bg-gray-50 ease-linear duration-150 w-24 rounded-full pb-1 text-2xl'>BLOG</button></div>
 </div>
 <div className='font-semibold text-shadow-md'>
   5 AI Published &nbsp; ›

@@ -1,8 +1,8 @@
  @import "tailwindcss";
 
  body{
-    background-color: rgb(58, 58, 147);
+    background-color: rgb(171, 145, 42);
  }
- button{
+ /* button{
     color:white;
- }
+ } */
