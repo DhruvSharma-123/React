@@ -1,9 +1,8 @@
  @import "tailwindcss";
+
+ body{
+    background-color: rgb(58, 58, 147);
+ }
  button{
-    transition: all 5s easy-in-out  0s;
+    color:white;
  }
- button:hover{
-    background-color: rgb(230, 224, 224);
-    border-radius: 5px;
- }
- 
