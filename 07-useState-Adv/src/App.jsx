@@ -42,22 +42,22 @@
 
 
 //Batch Upadate 
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 
-const App = () => {
-  const [num,SetNUM]=useState(0);
-  function Bupdate(){
-SetNUM(prev=>(prev+1));
-SetNUM(prev=>(prev+1));
-SetNUM(prev=>(prev+1));
+// const App = () => {
+//   const [num,SetNUM]=useState(0);
+//   function Bupdate(){
+// SetNUM(prev=>(prev+1));
+// SetNUM(prev=>(prev+1));
+// SetNUM(prev=>(prev+1));
 
-  }
-  return (
-    <div>
-      <h1>{num}</h1>
-      <button onClick={Bupdate}>Click Me</button>
-    </div>
-  )
-}
+//   }
+//   return (
+//     <div>
+//       <h1>{num}</h1>
+//       <button onClick={Bupdate}>Click Me</button>
+//     </div>
+//   )
+// }
 
-export default App
+// export default App
