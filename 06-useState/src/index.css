@@ -1,0 +1,25 @@
+h1{
+    height: 250px;
+    width: 250px;
+    font-size: 100px;
+padding-left:125px;
+padding-top: 125px;
+    font-weight: bolder;
+    color: black;
+    background-color: bisque;
+    box-shadow: inset;
+}
+button{
+    background-color: rgb(131, 124, 138);
+    color: white;
+    font-size: 50px;
+    margin:5px ;
+border-radius: 10px;
+transition: all 0.5 s ease-in-out 0s;
+}
+
+button:hover{
+ transform: translateY(-5px);
+ box-shadow: 0ric;
+ 
+}
