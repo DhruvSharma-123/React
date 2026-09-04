@@ -3,15 +3,16 @@ import React, { useState } from 'react'
 const App = () => {
   function submit(e){
     e.preventDefault();
-    SetNummm(num+""+num2);
+    SetNummm([...num3,num+""+num2]);
 
               SetNum("");
                         SetNumm("");
 
   }
+ 
   const [num,SetNum]=useState("");
     const [num2,SetNumm]=useState("");
-  const [num3,SetNummm]=useState("");
+  const [num3,SetNummm]=useState([]);
 
   return (
     <div >
@@ -24,9 +25,16 @@ submit(e);
         <textarea type="text" placeholder='FeedBack Area' value={num2} onChange={(e)=>{
           SetNumm(e.target.value);
         }} ></textarea>
-        <button>Submit</button>
+        <button> Submit </button>
       </form>
-      <div className='h-20 w-20 bg-black text-white'><p className='w-20'>{num3}</p></div>
+      {/* /* /* /* {num3 && <div className='h-20 w-20 bg-black text-white'> */}
+        {/* // {num3}</div>}                  //  V  V  I  M  P  */}
+        {num3.map((data,index)=>{
+          return(
+<div key={index} className='w-20 h-20 bg-black text-white'>{data}</div>
+
+        );
+        })}
     </div>
   )
 }
