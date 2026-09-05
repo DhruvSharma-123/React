@@ -17,8 +17,8 @@ const App = () => {
   age:18,
   Branch:"A.I.M.L"
  } 
- localStorage.setItem("data",JSON.stringify(data));
- let dataacc=JSON.parse(localStorage.getItem("data"));
+ localStorage.setItem("data",JSON.stringify(data));                   //JSON.stringify-convert obj to string
+ let dataacc=JSON.parse(localStorage.getItem("data"));                //JSON.parse-vice versa
  console.log(dataacc)
  
  
