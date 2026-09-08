@@ -8,6 +8,7 @@ const Product = () => {
       <div className="text-center">
 <Link to='/product/Mens' className="text-2xl font-semibold relative right-5">Mens</Link>
 <Link to='/product/Women' className="text-2xl font-semibold">Women</Link>
+<Link to="/product/kids" className="text-2xl font-semibold relative left-5">Kids</Link>
     </div>
     <Outlet/>
     </div>
