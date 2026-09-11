@@ -5,7 +5,9 @@ const App = () => {
   const [theme,settheme]=("Right")
   return (
     <div>
-      <Navbar theme={theme}/>
+      <Navbar theme={theme}>
+       
+      </Navbar>
     </div>
   )
 }
